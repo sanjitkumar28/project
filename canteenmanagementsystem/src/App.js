@@ -10,7 +10,6 @@ import Admin from './components/Admin/Admin';
 import AdminRegister from './components/AdminRegister/AdminRegister';
 import AddMenu from './components/AddMenu/AddMenu'
 import NewMenusItem from './components/AddMenu/NewMenusItem'
-import AdminDashboard from './components/AddMenu/AdminDashboard/AdminDashboard';
 import {MenuList} from './components/Menu/MenuList'
 import { BrowserRouter , Routes, Route, Link } from "react-router-dom";
 import { useState } from 'react';
