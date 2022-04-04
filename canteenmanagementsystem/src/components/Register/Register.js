@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
 import axios from "axios"
-import { useHistory,Link} from "react-router-dom"
+import {useNavigate ,Link } from "react-router-dom"
 import "./register.css"
 
 export default function Register() {
+  const history =  useNavigate ()
   const [ user, setUser] = useState({
     name: "",
     email:"",
@@ -26,7 +27,7 @@ const register = () => {
       axios.post("http://localhost:9002/register", user)
       .then( res => {
           alert(res.data.message)
-          this.props.history.push('/')
+          history('/login')
       })
   } else {
       alert("invlid input")

@@ -104,6 +104,6 @@ app.post("/adminregister", (req, res)=> {
     })
     
 }) 
-app.listen(9003,() => {
+app.listen(9002,() => {
     console.log("BE started at port 9003")
 })

@@ -47,7 +47,7 @@ const register = () => {
             
             <div>or</div>
             <div className="button" >
-            <Link to="/" style={{ color: '#FFF' }}>Login</Link>
+            <Link to="/adminlogin" style={{ color: '#FFF' }}>Login</Link>
             </div>
            
         </div>
